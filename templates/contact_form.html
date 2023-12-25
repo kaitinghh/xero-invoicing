@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Contact Form</title>
+</head>
+<body>
+    <h1>Create Contact</h1>
+    <form action="{{ url_for('create_contact') }}" method="post">
+        <!-- Include input fields for names and other necessary details -->
+        <label for="name">Names:</label>
+        <input type="text" name="name[]" required>
+        <br>
+        <!-- Add more input fields for other details if needed -->
+        <br>
+        <input type="submit" value="Create Contact">
+    </form>
+</body>
+</html>

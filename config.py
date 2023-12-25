@@ -6,3 +6,4 @@ class Config:
     SESSION_TYPE = 'filesystem'
     SESSION_FILE_DIR = 'flask_session'
     SERVER_NAME = 'localhost:3000'
+    ENV = "development"

@@ -1,5 +1,4 @@
 xero-python
 flask
-utils
 Flask-OAuthlib
 Flask-Session
